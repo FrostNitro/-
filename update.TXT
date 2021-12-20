@@ -1,0 +1,10 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+// Читаем из потока ввода символы и пишем их в поток вывода.
+int main()
+{
+  cout << cin.rdbuf();
+  return EXIT_SUCCESS;
+}
